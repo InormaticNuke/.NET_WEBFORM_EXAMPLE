@@ -32,12 +32,38 @@
             </div>
 
             <br />
+            <hr />
+            <br />
+
+
+            <div class="form-group">
+
+                <asp:Label Text="Number 1" runat="server" id="n1"></asp:Label><br />
+                <asp:TextBox runat="server" ID="boxN1" placeholder="Number One"></asp:TextBox>
+
+            </div>
+
+            <br />
+
+            <div class="form-group">
+
+                <asp:Label Text="Number 2" runat="server" id="n2"></asp:Label><br />
+                <asp:TextBox runat="server" ID="boxN2" placeholder="Number Two"></asp:TextBox>
+
+            </div>
+
+            <br />
+            <hr />
+            <br />
 
             <asp:Button id="btnSmbt" Text="Sumbit" runat="server" OnClick="btnEnviar_Click" cssClass="btn btn-primary"/>
 
         </div>
 
     </asp:PlaceHolder>
+
+    <br />
+    <br />
 
     <div>
 

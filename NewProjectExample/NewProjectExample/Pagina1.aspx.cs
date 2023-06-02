@@ -21,8 +21,11 @@ namespace NewProjectExample
             string name = boxName.Text;
             string lastName = boxLastName.Text;
             string phone = boxPhone.Text;
+            int n1 = Convert.ToInt32(boxN1.Text);
+            int n2 = Convert.ToInt32(boxN2.Text);
+            int total = n1 + n2;
 
-            labelResultado.Text = $"Name: {name}<br /> Last Name: {lastName} <br /> Phone {phone}";
+            labelResultado.Text = $"Name: {name}<br /> Last Name: {lastName} <br /> Phone {phone} <br /> Numbers added {total}";
 
 
         }
